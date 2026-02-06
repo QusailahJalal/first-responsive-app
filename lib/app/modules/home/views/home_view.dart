@@ -11,14 +11,11 @@ class HomeView extends GetView<HomeController> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('HomeView'),
-        centerTitle: true,
+        backgroundColor: Colors.teal,
       ),
-      body: const Center(
-        child: Text(
-          'HomeView is working',
-          style: TextStyle(fontSize: 20),
-        ),
-      ),
+      body: Column(children: [
+        
+      ],)
     );
   }
 }
